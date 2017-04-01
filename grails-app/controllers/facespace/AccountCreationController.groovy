@@ -11,9 +11,9 @@ class AccountCreationController extends RestfulController{
         super(UserAccount)
     }
 
-    def index() {
+    /*def index() {
         // some default behaviour could be here
-    }
+    }*/
 
     // Our first POST-enabled method
     // We just want to get the status text and save it to the profile.
